@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO básico -->
+  <meta name="description" content="Portafolio profesional de Java Developer Jr especializado en backend con Spring Boot.">
+  <meta name="author" content="Tu Nombre">
+
+  <title>Tu Nombre | Java Developer Jr</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --bg:#0f172a;
+      --card:#111827;
+      --accent:#22c55e;
+      --text:#e5e7eb;
+      --muted:#9ca3af;
+    }
+    *{box-sizing:border-box;margin:0;padding:0;font-family:'Inter',sans-serif}
+    body{background:linear-gradient(180deg,#020617,#0b1024);color:var(--text)}
+    header{padding:60px 20px;text-align:center}
+    h1{font-size:2.5rem;font-weight:700}
+    h2{font-size:1.6rem;margin-bottom:15px}
+    p{color:var(--muted);line-height:1.6}
+    .container{max-width:1100px;margin:auto;padding:20px}
+    .card{background:rgba(17,24,39,.7);backdrop-filter:blur(8px);border-radius:18px;padding:25px;margin-bottom:25px;box-shadow:0 10px 30px rgba(0,0,0,.3)}
+    .links a{display:inline-block;margin:8px 10px;padding:10px 16px;border-radius:10px;text-decoration:none;color:white;background:#1f2937;transition:.2s}
+    .links a:hover{background:var(--accent);color:#022c22}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+    .project img{width:100%;border-radius:10px;margin-bottom:10px}
+    footer{text-align:center;padding:30px;color:var(--muted)}
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Tu Nombre</h1>
+  <p>Java Developer Jr | Backend | Spring Boot | REST APIs</p>
+</header>
+
+<div class="container">
+
+  <section class="card">
+    <h2>Sobre mí</h2>
+    <p>
+      Escribe aquí tu biografía profesional. Describe tu experiencia con Java, Spring Boot,
+      bases de datos y el tipo de proyectos backend en los que te interesa trabajar.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>Enlaces Profesionales</h2>
+    <div class="links">
+      <a href="https://github.com/tuusuario" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/in/tuusuario" target="_blank">LinkedIn</a>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>Proyectos Destacados</h2>
+
+    <div class="grid">
+
+      <div class="project">
+        <img src="images/proyecto1.png" alt="Proyecto 1">
+        <h3>Nombre del Proyecto</h3>
+        <p>API REST con Spring Boot, autenticación y conexión a MySQL.</p>
+        <div class="links">
+          <a href="#">Repositorio</a>
+        </div>
+      </div>
+
+      <div class="project">
+        <img src="images/proyecto2.png" alt="Proyecto 2">
+        <h3>Nombre del Proyecto</h3>
+        <p>Sistema CRUD con Java y arquitectura MVC.</p>
+        <div class="links">
+          <a href="#">Repositorio</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>Capturas</h2>
+    <div class="grid">
+      <img src="images/captura1.png" alt="Captura 1">
+      <img src="images/captura2.png" alt="Captura 2">
+      <img src="images/captura3.png" alt="Captura 3">
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  <p>© 2026 - Portafolio Profesional</p>
+</footer>
+
+</body>
+</html>
